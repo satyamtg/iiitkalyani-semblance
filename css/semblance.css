@@ -1,0 +1,139 @@
+#intro {
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+#gallery {
+	background-color: cyan;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+#arrowleft {
+	background-color: white;
+	width: 9vw;
+	height: 8vh;
+	position: absolute;
+	bottom: 45vh;
+	left: 0vw;
+	z-index: 999;
+}
+
+#arrowright {
+	background-color: lightblue;
+	width: 9vw;
+	height: 8vh;
+	position: absolute;
+	bottom: 45vh;
+	left: 9vw;
+	z-index: 999;
+}
+
+#item1 {
+	background-color: white;
+	width: 25vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0vh;
+	left: 0vw;
+	z-index: 999;
+}
+
+#item2 {
+	background-color: black;
+	width: 25vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0vh;
+	left: 25vw;
+	z-index: 999;
+}
+
+#item3 {
+	background-color: white;
+	width: 25vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0vh;
+	left: 50vw;
+	z-index: 999;
+}
+
+#iteminfo {
+	background-color: yellow;
+	width: 50vw;
+	height: 60vh;
+	position: absolute;
+	bottom: 15vh;
+	right: 0px;
+}
+
+#gallerybottom {
+	background-color: red;
+	width: 25vw;
+	height: 15vh;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#events {
+	background-color: yellow;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+#eventcard {
+	background-color: white;
+	width: 95vw;
+	height: 33vh;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#members {
+	background-color: white;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+#memberinfo {
+	background-color: red;
+	width: 48vw;
+	height: 66vh;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+#contact {
+	background-color: white;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+#contactinfo {
+	background-color: black;
+	width: 52vw;
+	height: 50vh;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#contactbottom {
+	background-color: red;
+	width: 48vw;
+	height: 15vh;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
