@@ -12,6 +12,17 @@
 	position: relative;
 }
 
+#galleryhead {
+	position: absolute;
+	top: 8vh;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 21vh;
+	font-weight: bold;
+	z-index: 999;
+}
+
 #arrowleft {
 	background-color: white;
 	width: 9vw;
@@ -87,6 +98,17 @@
 	position: relative;
 }
 
+#eventshead {
+	position: absolute;
+	top: 8vh;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 21vh;
+	font-weight: bold;
+	z-index: 999;
+}
+
 #eventcard {
 	background-color: white;
 	width: 95vw;
@@ -101,6 +123,17 @@
 	width: 100vw;
 	height: 100vh;
 	position: relative;
+}
+
+#membershead {
+	position: absolute;
+	top: 8vh;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 21vh;
+	font-weight: bold;
+	z-index: 999;
 }
 
 #memberinfo {
@@ -118,6 +151,17 @@
 	width: 100vw;
 	height: 100vh;
 	position: relative;
+}
+
+#contacthead {
+	position: absolute;
+	top: 8vh;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 21vh;
+	font-weight: bold;
+	z-index: 999;
 }
 
 #contactinfo {
