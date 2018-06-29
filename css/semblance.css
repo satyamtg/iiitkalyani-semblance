@@ -173,6 +173,14 @@
 	left: 0px;
 }
 
+#map {
+	width: 30vw;
+	height: 40vh;
+	position: absolute;
+	right: 10vw;
+	bottom: 20vh;
+}
+
 #contactbottom {
 	background-color: red;
 	width: 48vw;

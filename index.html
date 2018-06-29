@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel='stylesheet' type='text/css' href='css/semblance.css'>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 	</head>
 	<body>
 		<div id="intro">
@@ -52,10 +53,20 @@
 			<div id="contacthead">
 				contact us
 			</div>
+			<div id="map">
+			</div>
 			<div id="contactinfo">
 			</div>
 			<div id="contactbottom">
 			</div>
 		</div>
+		<script>
+			function initMap() {
+  				var place = {lat: -25.344, lng: 131.036};
+  				var map = new google.maps.Map(
+      			document.getElementById('map'), {zoom: 4, center: place});
+  				var marker = new google.maps.Marker({position: place, map: map});
+			}
+    </script>
 	</body>	
 </html>
