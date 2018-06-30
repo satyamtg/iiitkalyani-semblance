@@ -12,12 +12,17 @@
 
 
 		<link rel='stylesheet' type='text/css' href='css/semblance.css'>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 	</head>
 	<body>
 		<div id="intro">
 			<div id="messenger">WELCOME</div>
 		</div>
 		<div id="gallery">
+			<div id="galleryhead">
+				gallery
+			</div>
 			<div id="arrowleft">
 			</div>
 			<div id="arrowright">
@@ -34,6 +39,9 @@
 			</div>
 		</div>
 		<div id="events">
+			<div id="eventshead">
+				events
+			</div>	
 			<div id="event1">
 			</div>
 			<div id="event2">
@@ -44,14 +52,30 @@
 			</div>
 		</div>
 		<div id="members">
+			<div id="membershead">
+				members
+			</div>
 			<div id="memberinfo">
 			</div>
 		</div>
 		<div id="contact">
+			<div id="contacthead">
+				contact us
+			</div>
+			<div id="map">
+			</div>
 			<div id="contactinfo">
 			</div>
 			<div id="contactbottom">
 			</div>
 		</div>
+		<script>
+			function initMap() {
+  				var place = {lat: -25.344, lng: 131.036};
+  				var map = new google.maps.Map(
+      			document.getElementById('map'), {zoom: 4, center: place});
+  				var marker = new google.maps.Marker({position: place, map: map});
+			}
+    </script>
 	</body>	
 </html>
