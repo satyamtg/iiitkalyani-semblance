@@ -24,7 +24,7 @@
 	100%{
 		position: relative;
 		height: 100vh;
-		width: 50vw;
+		width: 50.5vw;
 		float: right;
 	}
 }
@@ -124,13 +124,30 @@
 	position: absolute;
 	z-index:20;
 	height: 0;
-	width: 0;
+		width: 0;
 	padding-top: 17vh;
 	padding-left: 5vw;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	animation: fadein2 4s;
 	animation-delay: 10s;
 	animation-fill-mode: forwards;
+  	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+#quote2{
+	color: white;
+	font-size: 0px;
+	position: absolute;
+	z-index:20;
+	height: 0;
+		width: 0;
+	padding-top: 17vh;
+	padding-left: 65vw;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	animation: fadein2 4s;
+	animation-delay: 10s;
+	animation-fill-mode: forwards;
+  	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.9);
 }
 
 @keyframes fadein2 {
