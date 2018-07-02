@@ -313,9 +313,9 @@
 
 #detail{
 	position: absolute;
-	top: 27vh;
 	left: 53vw;
-	width: 40vw;
+	width: 0;
+	height: 0;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 	font-size: 2vh;
@@ -323,6 +323,21 @@
 	border-left: 3px solid black;
 	padding: 50px 40px;
 	letter-spacing: 1.5px;
+	animation: dropin3 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes dropin3 {
+	0%{
+		top: 0;
+		width: 40vw;
+		height: 0;
+	}
+	100%{
+		top: 27vh;
+		height: 15vh;
+		width: 40vw;
+	}
 }
 
 .event {
