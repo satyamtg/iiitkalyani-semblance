@@ -8,7 +8,7 @@
 }
 
 #introbg1{
-	background-color: rgb(195, 20, 51);
+	background-color: rgb(198, 10, 49);
 	height: 0;
 	width: 0;
 	animation: bg 3s;
@@ -206,48 +206,6 @@
 }
 
 
-@-webkit-keyframes mask-move {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(129px);
-            transform: translateX(129px);
-  }
-}
-@keyframes mask-move {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(129px);
-            transform: translateX(129px);
-  }
-}
-@-webkit-keyframes mask-inner-move {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-129px);
-            transform: translateX(-129px);
-  }
-}
-@keyframes mask-inner-move {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-129px);
-            transform: translateX(-129px);
-  }
-}
-
-
 #gallery {
 	background-color: cyan;
 	width: 100vw;
@@ -347,18 +305,112 @@
 	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	font-size: 21vh;
+	font-size: 23vh;
 	font-weight: bold;
 	z-index: 999;
+	letter-spacing: 2px;
+}
+
+#detail{
+	position: absolute;
+	top: 27vh;
+	left: 53vw;
+	width: 40vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 2vh;
+	z-index: 999;
+	border-left: 3px solid black;
+	padding: 50px 40px;
+	letter-spacing: 1.5px;
+}
+
+.event {
+	height: 0;
+	width: 0;
+	font-size: 0;
+	border-right: 3px solid rgba(128, 128, 128, 0.35);
+	border-bottom: 3px solid rgba(128, 128, 128, 0.35);
+	animation: dropin 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes dropin {
+	0%{
+		font-size: 0;
+		top: 0;
+		width: 17vw;
+		height: 0;
+	}
+	100%{
+		font-size: 15px;
+		top: 58vh;
+		height: 35vh;
+		width: 17vw;
+	}
+}
+
+.event p {
+	padding: 15px;
+}
+
+.eventlist {
+	top: 58vh;
+	left: 20vw;
+	position: absolute;
+	height: 0;
+	width: 0;
+	display:flex;
+	justify-content: space-around;
+	z-index: 100;
+	animation: dropin2 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes dropin2 {
+	0%{
+		top: 0;
+		width: 70vw;
+		height: 37;
+	}
+	100%{
+		top: 58vh;
+		width: 70vw;
+		height: 37;
+	}
+}
+
+.eventimg {
+	width:100%;
+	max-height:50%;
 }
 
 #eventcard {
 	background-color: white;
-	width: 95vw;
-	height: 33vh;
-	position: absolute;
+	width: 0;
+	height: 0;
 	bottom: 0px;
 	right: 0px;
+	animation: riseup 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes riseup {
+	0%{
+		width: 95vw;
+		bottom: 0px;
+		right: 0px;
+		position: absolute;
+	}
+	100%{
+		width: 95vw;
+		height: 33vh;
+		bottom: 0px;
+		right: 0px;
+		position: absolute;
+	}
 }
 
 #members {

@@ -10,7 +10,7 @@
 
 		<link rel='stylesheet' type='text/css' href='css/semblance.css'>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+		<script tyle="text/javascript" src="css/semblance.js"></script>
 	</head>
 	<body>
 		<div id="intro">
@@ -46,11 +46,22 @@
 			<div id="eventshead">
 				events
 			</div>	
-			<div id="event1">
+			<div id="detail">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 			</div>
-			<div id="event2">
-			</div>
-			<div id="event3">
+			<div class="eventlist">
+				<div id="event1" class="event">
+					<img src="event.jpg" class="eventimg">
+					<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<p>
+				</div>
+				<div id="event2" class="event">
+					<img src="event.jpg" class="eventimg">
+					<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<p>
+				</div>
+				<div id="event3" class="event">
+					<img src="event.jpg" class="eventimg">
+					<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<p>
+				</div>
 			</div>
 			<div id="eventcard">
 			</div>
@@ -81,5 +92,6 @@
   				var marker = new google.maps.Marker({position: place, map: map});
 			}
     </script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</body>	
 </html>
