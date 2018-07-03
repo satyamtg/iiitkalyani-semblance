@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:700,900");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 body {
 	margin: 0;
@@ -36,7 +36,7 @@ body {
 }
 
 #messenger {
-  font-family: 'Roboto';
+  font-family: 'Roboto Condensed' , sans-serif;
   color: #e90418;
   font-size: 10vmin;
   font-weight: 700;
@@ -130,7 +130,7 @@ body {
 	position: absolute;
 	z-index:20;
 	height: 0;
-		width: 0;
+	width: 0;
 	padding-top: 17vh;
 	padding-left: 5vw;
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -146,7 +146,7 @@ body {
 	position: absolute;
 	z-index:20;
 	height: 0;
-		width: 0;
+	width: 0;
 	padding-top: 17vh;
 	padding-left: 65vw;
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -175,7 +175,7 @@ body {
 	height: 0;
 	width: 0;
 	color: white;
-	font-family: 'Roboto';
+	font-family: 'Roboto Condensed', sans-serif;
 	letter-spacing: 2px;
 	font-weight: none;
 	padding-top:65vh;
@@ -307,11 +307,11 @@ body {
 
 #eventshead {
 	position: absolute;
-	top: 8vh;
+	top: 3vw;
 	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	font-size: 23vh;
+	font-size: 13vw;
 	font-weight: bold;
 	z-index: 999;
 	letter-spacing: 2px;
@@ -319,50 +319,52 @@ body {
 
 #detail{
 	position: absolute;
-	left: 53vw;
-	width: 0;
-	height: 0;
-	font-family: 'Montserrat', sans-serif;
+	right: 8vw;
+	top: 10.5vw;
+	width: 35vw;
+	height: 9vw;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: black;
-	font-size: 2vh;
+	font-size: 1vw;
 	z-index: 999;
-	border-left: 3px solid black;
-	padding: 50px 40px;
-	letter-spacing: 1.5px;
-	animation: dropin3 2s;
-	animation-fill-mode: forwards;
 }
 
-@keyframes dropin3 {
-	0%{
-		top: 0;
-		width: 40vw;
-		height: 0;
-	}
-	100%{
-		top: 27vh;
-		height: 15vh;
-		width: 40vw;
-	}
-}
+#detailheading{
+	font-size: 2vw;
+	font-weight: bold;
+}	
 
 .event {
-	height: 35vh;
+	height: 23vw;
 	width: 17vw;
-	font-size: 15px;
-	background-color: black;
-	color: white;
+	font-size: 1vw;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .event p {
 	padding: 15px;
 }
 
+#event1 {
+	background-color: white;
+	color: black;
+}	
+
+#event2 {
+	background-color: black;
+	color: white;	
+}	
+
+#event3 {
+	background-color: white;
+	color: black;	
+}	
+
 .eventlist {
-	top: 58vh;
-	left: 20vw;
+	bottom: 3.5vw;
+	left: 15vw;
 	position: absolute;
-	height: 37;
+	height: ;
 	width: 70vw;
 	display:flex;
 	justify-content: space-around;
@@ -376,28 +378,11 @@ body {
 
 #eventcard {
 	background-color: white;
-	width: 0;
-	height: 0;
+	width: 95vw;
+	height: 19vw;
 	bottom: 0px;
 	right: 0px;
-	animation: riseup 2s;
-	animation-fill-mode: forwards;
-}
-
-@keyframes riseup {
-	0%{
-		width: 95vw;
-		bottom: 0px;
-		right: 0px;
-		position: absolute;
-	}
-	100%{
-		width: 95vw;
-		height: 33vh;
-		bottom: 0px;
-		right: 0px;
-		position: absolute;
-	}
+	position: absolute;
 }
 
 #members {
