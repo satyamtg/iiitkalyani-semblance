@@ -522,7 +522,7 @@ body {
 /*
 Tablet mode
 */
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1200px) {
 
 #gallery {
 	background-color: #1e90ff;
