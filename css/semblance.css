@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700,900");
 
+body {
+	margin: 0;
+	padding: 0; 
+	overflow-x: hidden;
+}
+
 #intro {
 	background: radial-gradient(#fff, #aaa);
   	height: 100vh;
@@ -207,7 +213,7 @@
 
 
 #gallery {
-	background-color: cyan;
+	background-color: #1e90ff;
 	width: 100vw;
 	height: 100vh;
 	position: relative;
@@ -275,7 +281,7 @@
 }
 
 #iteminfo {
-	background-color: yellow;
+	background-color: #ffd200;
 	width: 50vw;
 	height: 60vh;
 	position: absolute;
@@ -284,7 +290,7 @@
 }
 
 #gallerybottom {
-	background-color: red;
+	background-color: #f3115b;
 	width: 25vw;
 	height: 15vh;
 	position: absolute;
@@ -293,7 +299,7 @@
 }
 
 #events {
-	background-color: yellow;
+	background-color: #ffd200;
 	width: 100vw;
 	height: 100vh;
 	position: relative;
@@ -341,29 +347,11 @@
 }
 
 .event {
-	height: 0;
-	width: 0;
-	font-size: 0;
-	border-right: 3px solid rgba(128, 128, 128, 0.35);
-	border-bottom: 3px solid rgba(128, 128, 128, 0.35);
-	animation: dropin 3s;
-	animation-fill-mode: forwards;
-	animation-delay: 3s;
-}
-
-@keyframes dropin {
-	0%{
-		font-size: 0;
-		top: 0;
-		width: 17vw;
-		height: 0;
-	}
-	100%{
-		font-size: 15px;
-		top: 58vh;
-		height: 35vh;
-		width: 17vw;
-	}
+	height: 35vh;
+	width: 17vw;
+	font-size: 15px;
+	background-color: black;
+	color: white;
 }
 
 .event p {
@@ -374,27 +362,11 @@
 	top: 58vh;
 	left: 20vw;
 	position: absolute;
-	height: 0;
-	width: 0;
+	height: 37;
+	width: 70vw;
 	display:flex;
 	justify-content: space-around;
 	z-index: 100;
-	animation: dropin2 3s;
-	animation-fill-mode: forwards;
-	animation-delay: 3s;
-}
-
-@keyframes dropin2 {
-	0%{
-		top: 0;
-		width: 70vw;
-		height: 37;
-	}
-	100%{
-		top: 58vh;
-		width: 70vw;
-		height: 37;
-	}
 }
 
 .eventimg {
@@ -447,7 +419,7 @@
 }
 
 #memberinfo {
-	background-color: red;
+	background-color: #f3115b;
 	width: 48vw;
 	height: 66vh;
 	position: absolute;
@@ -492,7 +464,7 @@
 }
 
 #contactbottom {
-	background-color: red;
+	background-color: #f3115b;
 	width: 48vw;
 	height: 15vh;
 	position: absolute;
