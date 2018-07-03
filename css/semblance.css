@@ -221,11 +221,11 @@ body {
 
 #galleryhead {
 	position: absolute;
-	top: 8vh;
+	top: 3vw;
 	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	font-size: 21vh;
+	font-size: 13vw;
 	font-weight: bold;
 	z-index: 999;
 }
@@ -314,7 +314,6 @@ body {
 	font-size: 13vw;
 	font-weight: bold;
 	z-index: 999;
-	letter-spacing: 2px;
 }
 
 #detail{
@@ -394,11 +393,11 @@ body {
 
 #membershead {
 	position: absolute;
-	top: 8vh;
+	top: 3vw;
 	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	font-size: 21vh;
+	font-size: 13vw;
 	font-weight: bold;
 	z-index: 999;
 }
@@ -422,11 +421,11 @@ body {
 
 #contacthead {
 	position: absolute;
-	top: 8vh;
+	top: 3vw;
 	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	font-size: 21vh;
+	font-size: 13vw;
 	font-weight: bold;
 	z-index: 999;
 }
@@ -434,7 +433,7 @@ body {
 #contactinfo {
 	background-color: black;
 	width: 52vw;
-	height: 50vh;
+	height: 26vw;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
@@ -517,4 +516,304 @@ body {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+}
+
+
+/*
+Tablet mode
+*/
+@media (min-width: 720px) and (max-width: 1024px) {
+
+#gallery {
+	background-color: #1e90ff;
+	width: 100vw;
+	height: auto;
+	position: relative;
+}
+
+#galleryhead {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 13vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#arrowleft {
+	background-color: white;
+	width: 9vw;
+	height: 8vh;
+	position: absolute;
+	bottom: 45vh;
+	left: 0vw;
+	z-index: 999;
+}
+
+#arrowright {
+	background-color: lightblue;
+	width: 9vw;
+	height: 8vh;
+	position: absolute;
+	bottom: 45vh;
+	left: 9vw;
+	z-index: 999;
+}
+
+#item1 {
+	background-color: white;
+	width: 25vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0vh;
+	left: 0vw;
+	z-index: 999;
+}
+
+#item2 {
+	background-color: black;
+	width: 25vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0vh;
+	left: 25vw;
+	z-index: 999;
+}
+
+#item3 {
+display: none;
+}
+
+#iteminfo {
+	background-color: #ffd200;
+	width: 50vw;
+	height: 60vh;
+	position: absolute;
+	bottom: 15vh;
+	right: 0px;
+}
+
+#gallerybottom {
+	background-color: #f3115b;
+	width: 25vw;
+	height: 15vh;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+	
+#events {
+	background-color: #ffd200;
+	width: 100vw;
+	height: auto;
+	position: relative;
+}
+	
+#eventshead {
+	position: relative;
+	top: 3vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 13vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#detail{
+	position: relative;
+	right: 8vw;
+	top: 10.5vw;
+	width: 35vw;
+	height: 9vw;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 1vw;
+	z-index: 999;
+}
+
+#detailheading{
+	font-size: 3vw;
+	font-weight: bold;
+}	
+
+.event {
+	height: 50vw;
+	width: 30vw;
+	font-size: 2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.event p {
+	padding: 15px;
+}
+
+#event1 {
+	background-color: white;
+	color: black;
+}	
+
+#event2 {
+	background-color: black;
+	color: white;	
+}	
+
+#event3 {
+	background-color: white;
+	color: black;
+	display: none;
+}	
+
+.eventlist {
+	position: relative;
+	height: 55vw;
+	width: 70vw;
+	justify-content: space-around;
+	z-index: 100;
+}
+
+.eventimg {
+	width:100%;
+	max-height:50%;
+}
+
+#eventcard {
+	background-color: white;
+	width: 100vw;
+	height: 19vw;
+	bottom: 0px;
+	right: 0px;
+	position: relative;
+}
+
+#members {
+	background-color: white;
+	width: 100vw;
+	height: auto;
+	position: relative;
+}	
+	
+#membershead {
+	position: relative;
+	top: 3vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 13vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#memberinfo {
+	background-color: #f3115b;
+	width: 100vw;
+	height: 35vw;
+	position: relative;
+}
+	
+#contact {
+	background-color: white;
+	width: 100vw;
+	height: auto;
+	position: relative;
+}	
+	
+#contacthead {
+	position: relative;
+	top: 3vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 13vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#contactinfo {
+	background-color: black;
+	width: 100vw;
+	height: 50vw;
+	position: relative;
+}
+
+#address{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2vw;
+	width: 40vw;
+	padding: 2vw;
+	position: absolute;
+	top: 6vw;
+	left:8vw;
+}
+
+#phone{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2vw;
+	width: 40vw;
+	padding: 2vw;
+	position: absolute;
+	bottom: 12vw;
+	left:8vw;
+}
+
+#email{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2vw;
+	width: 40vw;
+	padding: 2vw;
+	position: absolute;
+	top: 6vw;
+	right:4vw;
+}
+
+#socialbox{
+	color: white;
+	font-size: 4vw;
+	width: 40vw;
+	padding: 2vw;
+	position: absolute;
+	bottom: 12vw;
+	right:4vw;
+}
+
+#socialbox i{
+	padding: 1.2vw;
+}
+
+#socialbox i:hover{
+	color: #00c853;
+}
+
+.contactgroupheading{
+	color: #00c853;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.20vw;
+	padding-bottom: 1.2vw;
+}
+
+.contactgroupheading i{
+	padding-right: 2vw;
+}	
+
+#map {
+	width: 100vw;
+	height: 70vw;
+	position: relative;
+	right: 0vw;
+	bottom: 0vw;
+}
+
+#contactbottom {
+	background-color: #00c853;
+	width: 100vw;
+	height: 10vw;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+}
+
+
 }
