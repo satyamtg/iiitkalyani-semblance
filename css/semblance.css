@@ -407,8 +407,8 @@ body {
 	width: 48vw;
 	height: 66vh;
 	position: absolute;
-	top: 0px;
 	right: 0px;
+	top: 0px;
 }
 
 
@@ -522,17 +522,19 @@ body {
 /*
 Tablet mode
 */
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
 #gallery {
 	background-color: #1e90ff;
 	width: 100vw;
-	height: auto;
+	height: 100vw;
 	position: relative;
 }
 
 #galleryhead {
-	position: relative;
+	position: absolute;
+	top: 3vw;
+	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	font-size: 13vw;
@@ -543,9 +545,9 @@ Tablet mode
 #arrowleft {
 	background-color: white;
 	width: 9vw;
-	height: 8vh;
+	height: 8vw;
 	position: absolute;
-	bottom: 45vh;
+	bottom: 45vw;
 	left: 0vw;
 	z-index: 999;
 }
@@ -553,17 +555,17 @@ Tablet mode
 #arrowright {
 	background-color: lightblue;
 	width: 9vw;
-	height: 8vh;
+	height: 8vw;
 	position: absolute;
-	bottom: 45vh;
+	bottom: 45vw;
 	left: 9vw;
 	z-index: 999;
 }
 
 #item1 {
 	background-color: white;
-	width: 25vw;
-	height: 45vh;
+	width: 45vw;
+	height: 45vw;
 	position: absolute;
 	bottom: 0vh;
 	left: 0vw;
@@ -572,31 +574,31 @@ Tablet mode
 
 #item2 {
 	background-color: black;
-	width: 25vw;
-	height: 45vh;
+	width: 45vw;
+	height: 45vw;
 	position: absolute;
 	bottom: 0vh;
-	left: 25vw;
+	left: 45vw;
 	z-index: 999;
 }
 
 #item3 {
-display: none;
+	display: none;
 }
 
 #iteminfo {
 	background-color: #ffd200;
-	width: 50vw;
-	height: 60vh;
+	width: 82vw;
+	height: 25vw;
 	position: absolute;
-	bottom: 15vh;
+	bottom: 45vw;
 	right: 0px;
 }
 
 #gallerybottom {
 	background-color: #f3115b;
-	width: 25vw;
-	height: 15vh;
+	width: 10vw;
+	height: 45vw;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -683,21 +685,21 @@ display: none;
 	background-color: white;
 	width: 90vw;
 	height: 40vw;
-	top: 50vw;
+	bottom: 10vw;
 	right: 0px;
 	position: absolute;
 }
 
 #members {
-	background-color: #f3115b;
+	background-color: white;
 	width: 100vw;
 	height: 100vw;
 	position: relative;
-}	
-	
+}
+
 #membershead {
 	position: absolute;
-	top: 3vw;
+	top: 5vw;
 	left: 8vw;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
@@ -707,12 +709,12 @@ display: none;
 }
 
 #memberinfo {
-	background-color: white;
-	width: 90vw;
-	height: 50vw;
+	background-color: #f3115b;
+	width: 80vw;
+	height: 40vw;
 	position: absolute;
-	left: 0px;
-	bottom: 0px;
+	right: 0px;
+	top: 0px;
 }
 	
 #contact {
@@ -815,6 +817,305 @@ display: none;
 	background-color: #00c853;
 	width: 10vw;
 	height: 35vw;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+}
+
+/*
+Mobile mode
+*/
+@media (max-width: 640px) {
+
+#gallery {
+	background-color: #1e90ff;
+	width: 100vw;
+	height: 180vw;
+	position: relative;
+}
+
+#galleryhead {
+	position: absolute;
+	top: 3vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 17vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#arrowleft {
+	background-color: #080808b3;
+	width: 15vw;
+	height: 20vw;
+	position: absolute;
+	bottom: 45vw;
+	left: 85vw;
+	z-index: 999;
+}
+
+#arrowright {
+	background-color: #080808b3;
+	width: 15vw;
+	height: 20vw;
+	position: absolute;
+	bottom: 45vw;
+	left: 0vw;
+	z-index: 999;
+}
+
+#item1 {
+	background-color: white;
+	width: 100vw;
+	height: 100vw;
+	position: absolute;
+	bottom: 10vw;
+	left: 0vw;
+	z-index: 998;
+}
+
+#item2 {
+	display: none;
+}
+
+#item3 {
+	display: none;
+}
+
+#iteminfo {
+	background-color: #ffd200;
+	width: 100vw;
+	height: 50vw;
+	position: absolute;
+	bottom: 110vw;
+	right: 0px;
+}
+
+#gallerybottom {
+	background-color: #f3115b;
+	width: 100vw;
+	height: 10vw;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+	
+#events {
+	background-color: #ffd200;
+	width: 100vw;
+	height: 180vw;
+	position: relative;
+}
+	
+#eventshead {
+	position: absolute;
+	top: 3vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 17vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#detail{
+	position: absolute;
+	left: 8vw;
+	top: 25vw;
+	width: 95vw;
+	height: 15vw;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 3.5vw;
+	z-index: 999;
+	padding: 1vw;
+}
+
+#detailheading{
+	font-size: 7vw;
+	font-weight: bold;
+}	
+
+.event {
+	height: 80vw;
+	width: 70vw;
+	font-size: 3.5vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.event p {
+	padding: 15px;
+}
+
+#event1 {
+	background-color: black;
+	color: white;
+}	
+
+#event2 {
+	display: none;	
+}	
+
+#event3 {
+	display: none;
+}	
+
+.eventlist {
+	position: absolute;
+	top: 80vw;
+	height: 80vw;
+	width: 70vw;
+	justify-content: space-around;
+	z-index: 100;
+}
+
+.eventimg {
+	width:100%;
+	max-height:50%;
+}
+
+#eventcard {
+	background-color: white;
+	width: 90vw;
+	height: 40vw;
+	bottom: 10vw;
+	right: 0px;
+	position: absolute;
+}
+
+#members {
+	background-color: white;
+	width: 100vw;
+	height: 180vw;
+	position: relative;
+}
+
+#membershead {
+	position: absolute;
+	top: 5vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 17vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#memberinfo {
+	background-color: #f3115b;
+	width: 100vw;
+	height: 60vw;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+	
+#contact {
+	background-color: white;
+	width: 100vw;
+	height: 180vw;
+	position: relative;
+}	
+	
+#contacthead {
+	position: absolute;
+	top: 3vw;
+	left: 8vw;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 17vw;
+	font-weight: bold;
+	z-index: 999;
+}
+
+#contactinfo {
+	background-color: black;
+	width: 100vw;
+	height: 70vw;
+	position: absolute;
+	bottom: 10vw;
+}
+
+#address{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3.5vw;
+	width: 80vw;
+	height: 25vw;
+	padding: 5vw;
+	position: absolute;
+	top: 0vw;
+	left:5vw;
+}
+
+#phone{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3.5vw;
+	width: 40vw;
+	padding: 5vw;
+	position: absolute;
+	top: 27vw;
+	left:5vw;
+}
+
+#email{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3.5vw;
+	width: 40vw;
+	padding: 5vw;
+	position: absolute;
+	top: 46vw;
+	left:5vw;
+}
+
+#socialbox{
+	color: white;
+	font-size: 8vw;
+	width: 30vw;
+	padding: 0vw;
+	position: absolute;
+	top: 35vw;
+	left: 60vw;
+}
+
+#socialbox i{
+	padding: 2vw;
+}
+
+#socialbox i:hover{
+	color: #00c853;
+}
+
+.contactgroupheading{
+	color: #00c853;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 5vw;
+	padding-bottom: 1.2vw;
+}
+
+.contactgroupheading i{
+	padding-right: 2vw;
+}	
+
+#map {
+	width: 100vw;
+	height: 70vw;
+	position: absolute;
+	right: 0vw;
+	bottom: 80vw;
+	background-color: grey;
+}
+
+#contactbottom {
+	background-color: #00c853;
+	width: 100vw;
+	height: 10vw;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
