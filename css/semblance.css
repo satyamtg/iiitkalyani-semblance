@@ -526,7 +526,7 @@ body {
 	position: absolute;
 	right: 0vw;
 	bottom: 12vw;
-	background-color: grey;
+	border: 0;
 }
 
 #contactbottom {
@@ -830,7 +830,7 @@ Tablet mode
 	position: absolute;
 	right: 0vw;
 	bottom: 38vw;
-	background-color: grey;
+	border: 0;
 }
 
 #contactbottom {
@@ -1129,7 +1129,7 @@ Mobile mode
 	position: absolute;
 	right: 0vw;
 	bottom: 80vw;
-	background-color: grey;
+	border: 0;
 }
 
 #contactbottom {

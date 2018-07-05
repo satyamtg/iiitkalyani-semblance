@@ -81,8 +81,8 @@
 			<div id="contacthead">
 				contact
 			</div>
-			<div id="map">
-			</div>
+			<iframe id="map" src="https://www.google.com/maps/embed/v1/place?q=iiit%20kalyani&key=AIzaSyDcrOBFw-eyS74b4Mb9YW5GfY118ZQGZJc" allowfullscreen>
+			</iframe>
 			<div id="contactinfo">
 				<div id="address">
 					<div class="contactgroupheading">
@@ -112,14 +112,6 @@
 			<div id="contactbottom">
 			</div>
 		</div>
-		<script>
-			function initMap() {
-  				var place = {lat: -25.344, lng: 131.036};
-  				var map = new google.maps.Map(
-      			document.getElementById('map'), {zoom: 4, center: place});
-  				var marker = new google.maps.Marker({position: place, map: map});
-			}
-    </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</body>	
 </html>
