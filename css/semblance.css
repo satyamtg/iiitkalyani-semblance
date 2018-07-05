@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
 	margin: 0;
@@ -233,9 +234,9 @@ body {
 #arrowleft {
 	background-color: white;
 	width: 9vw;
-	height: 8vh;
+	height: 4.5vw;
 	position: absolute;
-	bottom: 45vh;
+	bottom: 25vw;
 	left: 0vw;
 	z-index: 999;
 }
@@ -243,9 +244,9 @@ body {
 #arrowright {
 	background-color: lightblue;
 	width: 9vw;
-	height: 8vh;
+	height: 4.5vw;
 	position: absolute;
-	bottom: 45vh;
+	bottom: 25vw;
 	left: 9vw;
 	z-index: 999;
 }
@@ -253,9 +254,9 @@ body {
 #item1 {
 	background-color: white;
 	width: 25vw;
-	height: 45vh;
+	height: 25vw;
 	position: absolute;
-	bottom: 0vh;
+	bottom: 0vw;
 	left: 0vw;
 	z-index: 999;
 }
@@ -263,9 +264,9 @@ body {
 #item2 {
 	background-color: black;
 	width: 25vw;
-	height: 45vh;
+	height: 25vw;
 	position: absolute;
-	bottom: 0vh;
+	bottom: 0vw;
 	left: 25vw;
 	z-index: 999;
 }
@@ -273,9 +274,9 @@ body {
 #item3 {
 	background-color: white;
 	width: 25vw;
-	height: 45vh;
+	height: 25vw;
 	position: absolute;
-	bottom: 0vh;
+	bottom: 0vw;
 	left: 50vw;
 	z-index: 999;
 }
@@ -283,16 +284,16 @@ body {
 #iteminfo {
 	background-color: #ffd200;
 	width: 50vw;
-	height: 60vh;
+	height: 34vw;
 	position: absolute;
-	bottom: 15vh;
+	bottom: 8vw;
 	right: 0px;
 }
 
 #gallerybottom {
 	background-color: #f3115b;
 	width: 25vw;
-	height: 15vh;
+	height: 8vw;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -405,12 +406,30 @@ body {
 #memberinfo {
 	background-color: #f3115b;
 	width: 48vw;
-	height: 66vh;
+	height: 37vw;
 	position: absolute;
 	right: 0px;
 	top: 0px;
 }
 
+#joinbox {
+	width: 30vw;
+	position: absolute;
+	bottom: 7vw;
+	right: 7vw;
+}
+
+#joinbox input[type="text"]{
+	width: 70%;
+	height: 3vw;
+}
+
+#joinbox input[type="button"]{
+	width: 25%;
+	background-color: #f3115b;
+	border: none;
+	height: 3vw;
+}	
 
 #contact {
 	background-color: white;
@@ -502,17 +521,18 @@ body {
 }	
 
 #map {
-	width: 30vw;
-	height: 40vh;
+	width: 36vw;
+	height: 27vw;
 	position: absolute;
-	right: 10vw;
-	bottom: 20vh;
+	right: 0vw;
+	bottom: 12vw;
+	background-color: grey;
 }
 
 #contactbottom {
 	background-color: #00c853;
 	width: 48vw;
-	height: 15vh;
+	height: 8vw;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -567,7 +587,7 @@ Tablet mode
 	width: 45vw;
 	height: 45vw;
 	position: absolute;
-	bottom: 0vh;
+	bottom: 0vw;
 	left: 0vw;
 	z-index: 999;
 }
@@ -577,7 +597,7 @@ Tablet mode
 	width: 45vw;
 	height: 45vw;
 	position: absolute;
-	bottom: 0vh;
+	bottom: 0vw;
 	left: 45vw;
 	z-index: 999;
 }
@@ -828,7 +848,7 @@ Tablet mode
 /*
 Mobile mode
 */
-@media (max-width: 640px) {
+@media (max-width: 480px) {
 
 #gallery {
 	background-color: #1e90ff;
